@@ -57,3 +57,51 @@
     margin-top: 1rem;
   }
 }
+
+.divtwo {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  label {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    input {
+      width: 100px;
+    }
+  }
+}
+
+.boxround {
+  width: 48%;
+  height: 200px;
+  border: 2px solid black;
+  margin-top: 1rem;
+  border-radius: 10px 50px 30px 40px;
+}
+
+.copyboard {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 48%;
+  height: 200px;
+  border: 1px solid black;
+  margin-top: 1rem;
+}
+
+.fadeout {
+  opacity: 1;
+  animation: fadeout 3s ease-out;
+}
+
+@keyframes fadeout {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
