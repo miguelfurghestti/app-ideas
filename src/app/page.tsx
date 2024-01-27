@@ -1,7 +1,5 @@
+import styles from "./styles.module.scss";
+
 export default function Home() {
-  return (
-    <div>
-      <h1>App-Ideas Estudo</h1>
-    </div>
-  );
+  return <div className="main">Next.js Auth</div>;
 }
